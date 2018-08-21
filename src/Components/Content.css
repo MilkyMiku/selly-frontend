@@ -1,0 +1,51 @@
+.ProductContainer {
+  border: solid 1px black;
+  border-radius: 2px;
+  display: inline-block;
+  margin: 30px;
+  background: #26262680;
+}
+.ProductImage {
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+}
+.ProductImage img {
+  display: block;
+}
+
+.ProductName {
+  background: #666;
+  border: solid 1px black;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.ProductPurchaseContainer {
+  display: flex;
+  align-content: center;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.ProductPurcahseVerified,
+.ProductPurcahseUnverified {
+  width: 100%;
+  padding: 60px;
+
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.ProductPurcahseVerified:hover,
+.ProductPurcahseUnverified:hover {
+  cursor: pointer;
+  background: #383838;
+}
+
+.ProductPurchaseType {
+  font-size: 12px;
+  font-style: italic;
+}
